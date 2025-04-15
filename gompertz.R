@@ -32,7 +32,7 @@ fit_gompertz = brm(
   family = gaussian(),
   prior = priors,
   control = list(adapt_delta = 0.999,max_treedepth = 25),
-  chains = 6,
+  chains = 8,
   warmup = 4000,
   iter = 14000,
   backend = 'cmdstanr',
