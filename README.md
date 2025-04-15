@@ -98,6 +98,6 @@ The supplementary code also includes functions for analyzing prediction results:
 
 ## Requirements
 
-- R with packages: `brms`, `tidybayes`, `bayesplot`, `ggplot2`, `dplyr`, `scoringRules`, `tidyr`, `patchwork`
+- R with packages: `brms` and `rstan`
 - `CmdStanR` backend for efficient MCMC sampling
 - Sufficient computational resources for running multiple MCMC chains in parallel
